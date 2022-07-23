@@ -1,9 +1,14 @@
 import React from "react";
 import ReactDom from "react-dom";
 import "./index.css";
+import Counter from "./Counter";
 
 const App = () => {
-  return <h1>Hello</h1>;
+  return (
+    <>
+      <Counter />
+    </>
+  );
 };
 
 export default App;
