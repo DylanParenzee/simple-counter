@@ -1,18 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+
 
 body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   align-content: center;
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
 }
 
 #root{
   
-  width: 30em;
   height: 30em;
   margin: 20px;
+  position: fixed;
+  top: 30%;
+  left: 37%;
+  width:100%;
+  max-width:30em;
 }
 
 h1{
@@ -30,4 +37,13 @@ h1{
   border-radius: 10px;
   border-style: none;
   box-shadow: 2px 2px;
+
+}
+
+.btn:hover{
+  background-color: rgb(240, 49, 234);
+  cursor: pointer;
+  box-shadow:1px 1px 1px black,
+    0 0 2px rgb(105, 18, 127),
+    0 0 5px rgb(71, 2, 67);
 }
