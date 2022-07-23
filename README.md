@@ -1,6 +1,7 @@
 # simple-counter
 
 -- as title suggests, simple counter with logic to increment or decrement by one with the onclick event and the a reset function to reset counter to zero, also using an onclick event. Made this simple counter to practice create a react application from scrtch and practice styling and useState()
+-- there is a more complex version of this I plan to upload utilising setTimeout() and prevState
 
 
 
